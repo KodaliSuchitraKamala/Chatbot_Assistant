@@ -1,0 +1,116 @@
+{
+  "test@example.com": [
+    {
+      "id": "1",
+      "timestamp": "2023-10-27T10:00:00Z",
+      "preview": "Test",
+      "messages": []
+    }
+  ],
+  "kodalisuchitrakamala@gmail.com": [
+    {
+      "id": "1774347191526",
+      "messages": [
+        {
+          "id": "1",
+          "text": "Hello, how can I help you today?",
+          "sender": "bot",
+          "timestamp": "2026-03-24T10:12:39.588Z"
+        },
+        {
+          "id": "1774347181295",
+          "text": "Explain quantum computing simply",
+          "sender": "user",
+          "timestamp": "2026-03-24T10:13:01.295Z",
+          "status": "sent"
+        },
+        {
+          "id": "1774347191527",
+          "text": "To understand quantum computing, you first have to understand how a normal computer works.\n\n### 1. The Classical Bit (The Light Switch)\nEvery device you use—your phone, your laptop, even your microwave—thinks in **Bits**. A bit is like a light switch. It can be in one of two states: **Off (0) or On (1).** \n\nEverything you do online—watching a video, sending a text—is just a massive string of millions of these 1s and 0s.\n\n### 2. The Qubit (The Spinning Coin)\nA quantum computer uses **Qubits**. Think of a qubit like a **spinning coin** on a table. \n*   While it’s spinning, is it Heads? No. \n*   Is it Tails? No. \n*   It is actually in a state of both at the same time. \n\nIn physics, this is called **Superposition**. This allows a quantum computer to deal with a massive amount of data all at once, rather than one piece at a time.\n\n### 3. How it works: The Maze Analogy\nImagine you are trying to find the exit to a giant, complex maze.\n\n*   **A Classical Computer** is like a mouse. it will run down one path, hit a wall, turn around, and try another. It tries every path one by one until it finds the exit. It’s effective, but it takes a long time.\n*   **A Quantum Computer** is like a **mist** that enters the maze. The mist floats down *every path simultaneously*. It finds the exit almost instantly because it doesn't have to try them one at a time.\n\n### 4. Entanglement (Telepathy)\nThere is another weird trick called **Entanglement**. You can link two qubits together so that they are perfectly synchronized, no matter how far apart they are. \n\nIf you have two \"entangled\" spinning coins and you stop one to see it's \"Heads,\" the other coin will instantly stop and show \"Heads\" too—even if it's on the other side of the universe. This allows qubits to work together in a massive, coordinated team.\n\n### 5. Why do we need them?\nQuantum computers aren't meant to replace your laptop. They aren't better at browsing the web or watching Netflix. They are designed for \"Big Math\" that normal computers find impossible:\n\n*   **Medicine:** Simulating how new drugs react with the human body at a molecular level (too complex for normal PCs).\n*   **Encryption:** They could potentially crack almost all current internet passwords, which is why scientists are racing to build \"quantum-proof\" security.\n*   **Climate Change:** Helping us create new materials that can capture carbon or build much better batteries.\n\n### The Catch\nQuantum computers are incredibly \"cranky.\" They have to be kept in temperatures **colder than outer space** because the slightest bit of heat or vibration makes the \"spinning coins\" fall over and stop working. This is why we don't have them in our pockets yet!",
+          "sender": "bot",
+          "timestamp": "2026-03-24T10:13:11.526Z"
+        }
+      ],
+      "preview": "Explain quantum computing simply",
+      "timestamp": "2026-03-24T10:13:11.526Z"
+    },
+    {
+      "id": "1774347148448",
+      "messages": [
+        {
+          "id": "1",
+          "text": "Hello, how can I help you today?",
+          "sender": "bot",
+          "timestamp": "2026-03-24T10:12:12.286Z"
+        },
+        {
+          "id": "1774347146698",
+          "text": "Explain quantum computing simply",
+          "sender": "user",
+          "timestamp": "2026-03-24T10:12:26.698Z",
+          "status": "sent"
+        },
+        {
+          "id": "1774347148449",
+          "text": "I'm having trouble thinking right now. Please check if the GEMINI_API_KEY is correctly set in the .env file.",
+          "sender": "bot",
+          "timestamp": "2026-03-24T10:12:28.448Z"
+        }
+      ],
+      "preview": "Explain quantum computing simply",
+      "timestamp": "2026-03-24T10:12:28.449Z"
+    },
+    {
+      "id": "1774347099704",
+      "messages": [
+        {
+          "id": "1",
+          "text": "Hello, how can I help you today?",
+          "sender": "bot",
+          "timestamp": "2026-03-24T07:04:03.402Z"
+        },
+        {
+          "id": "1774347097913",
+          "text": "Help me write a professional email",
+          "sender": "user",
+          "timestamp": "2026-03-24T10:11:37.913Z",
+          "status": "sent"
+        },
+        {
+          "id": "1774347099704",
+          "text": "I'm having trouble thinking right now. Please check if the GEMINI_API_KEY is correctly set in the .env file.",
+          "sender": "bot",
+          "timestamp": "2026-03-24T10:11:39.703Z"
+        }
+      ],
+      "preview": "Help me write a professional email",
+      "timestamp": "2026-03-24T10:11:39.704Z"
+    },
+    {
+      "id": "1774331234464",
+      "messages": [
+        {
+          "id": "1",
+          "text": "Hello, how can I help you today?",
+          "sender": "bot",
+          "timestamp": "2026-03-24T05:42:20.156Z"
+        },
+        {
+          "id": "1774331226848",
+          "text": "Help me write a professional email",
+          "sender": "user",
+          "timestamp": "2026-03-24T05:47:06.848Z",
+          "status": "sent"
+        },
+        {
+          "id": "1774331234464",
+          "text": "I would be happy to help! To give you the best result, could you tell me a little bit more about the situation?\n\nSpecifically:\n1.  **Who is the recipient?** (e.g., your boss, a client, a hiring manager)\n2.  **What is the goal?** (e.g., asking for a meeting, following up on an application, resigning, apologizing for a mistake)\n3.  **What is the tone?** (e.g., formal, friendly but professional, urgent)\n\n---\n\n**If you aren't sure where to start, here are three common templates you can use right now:**\n\n### 1. Requesting a Meeting\n**Subject:** Meeting Request: [Project Name/Topic]\n\nHi [Recipient Name],\n\nI hope you’re having a good week.\n\nI’d like to schedule a brief meeting to discuss [topic]. I want to ensure we are aligned on [specific goal] before we move forward.\n\nDo you have 20 minutes available on [Day] or [Day] afternoon? If not, please let me know a time that works best for you.\n\nBest regards,\n\n[Your Name]\n\n---\n\n### 2. Following Up (on an application or previous email)\n**Subject:** Following up: [Job Title / Previous Email Subject]\n\nDear [Recipient Name],\n\nI hope this email finds you well.\n\nI am writing to follow up on [the status of my application / my previous email regarding X]. I am still very interested in [the position / this project] and wanted to see if there were any updates or if you needed any further information from my side.\n\nI look forward to hearing from you.\n\nBest,\n\n[Your Name]\n\n---\n\n### 3. Asking for Information/Clarification\n**Subject:** Question regarding [Project/Task Name]\n\nHi [Recipient Name],\n\nI am currently working on [Task] and had a quick question regarding [specific detail]. \n\nCould you please clarify [what you need to know]? Having this information will help me complete the task by [Deadline].\n\nThanks in advance for your help.\n\nBest regards,\n\n[Your Name]\n\n---\n\n**Would you like me to rewrite one of these for your specific situation? Just reply with the details!**",
+          "sender": "bot",
+          "timestamp": "2026-03-24T05:47:14.463Z"
+        }
+      ],
+      "preview": "Help me write a professional email",
+      "timestamp": "2026-03-24T05:47:14.465Z"
+    }
+  ]
+}
