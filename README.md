@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Chatbot AI Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack AI Chatbot Assistant built with React, Node.js, Express, and Google's Generative AI.
+
+## Features
+
+- **Interactive Chat Interface**: A modern React-based UI for seamless user interactions.
+- **AI Integration**: Powered by Google Generative AI for intelligent and context-aware responses.
+- **Express Backend**: A robust Node.js/Express server to handle API requests and manage AI model interactions securely.
+
+## Prerequisites
+
+- Node.js (v14 or higher)
+- npm
+- Google Gemini API Key
+
+## Getting Started
+
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone <repository-url>
+   cd Chatbot
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Environment Setup**:
+   Create a `.env` file in the root directory and add your Google Gemini API key:
+   ```env
+   GEMINI_API_KEY=your_api_key_here
+   ```
+
+4. **Run the Application**:
+   Start both the frontend React app and backend Express server concurrently:
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser**:
+   Navigate to `http://localhost:3000` to interact with the Chatbot Assistant.
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm run dev`: Runs both the React app and Express server concurrently.
+- `npm start`: Runs only the React app in development mode.
+- `npm run server`: Runs only the Express server using nodemon for hot-reloading.
+- `npm run build`: Builds the React app for production to the `build` folder.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Built with React, Express, and Google Generative AI.
