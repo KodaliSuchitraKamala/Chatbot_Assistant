@@ -9,6 +9,32 @@
   ],
   "kodalisuchitrakamala@gmail.com": [
     {
+      "id": "1777263580299",
+      "messages": [
+        {
+          "id": "1",
+          "text": "Hello, how can I help you today?",
+          "sender": "bot",
+          "timestamp": "2026-04-27T04:19:30.695Z"
+        },
+        {
+          "id": "1777263578593",
+          "text": "Explain quantum computing simply",
+          "sender": "user",
+          "timestamp": "2026-04-27T04:19:38.593Z",
+          "status": "sent"
+        },
+        {
+          "id": "1777263580300",
+          "text": "I'm having trouble thinking right now. Please check if the GEMINI_API_KEY is correctly set in the .env file.",
+          "sender": "bot",
+          "timestamp": "2026-04-27T04:19:40.299Z"
+        }
+      ],
+      "preview": "Explain quantum computing simply",
+      "timestamp": "2026-04-27T04:19:40.299Z"
+    },
+    {
       "id": "1774347191526",
       "messages": [
         {
