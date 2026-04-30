@@ -3,12 +3,17 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "MOCK_KEY");
+// Debug: Check if API key is loaded
+const apiKey = process.env.GEMINI_API_KEY;
+console.log("API Key loaded:", apiKey ? "Yes" : "No");
+console.log("API Key starts with:", apiKey?.substring(0, 10) + "...");
+
+const genAI = new GoogleGenerativeAI(apiKey || "MOCK_KEY");
 
 export const generateAIResponse = async (prompt: string): Promise<string> => {
     // If no real API key is provided, return a simulated "smart" response
-    const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey || apiKey === "MOCK_KEY" || apiKey.includes("your_gemini_api_key")) {
+        console.log("Using mock AI response - no valid API key found");
         return simulateAIResponse(prompt);
     }
 
@@ -17,9 +22,21 @@ export const generateAIResponse = async (prompt: string): Promise<string> => {
         const result = await model.generateContent(prompt);
         const response = await result.response;
         return response.text();
-    } catch (error) {
-        console.error("Gemini AI Error:", error);
-        return "I'm having trouble thinking right now. Please check if the GEMINI_API_KEY is correctly set in the .env file.";
+    } catch (error: any) {
+        console.error("Gemini AI Error Details:", {
+            status: error.status,
+            statusText: error.statusText,
+            message: error.message
+        });
+        
+        // Handle specific API errors
+        if (error.status === 403) {
+            return "API key is invalid or has insufficient permissions. Please check your GEMINI_API_KEY.";
+        } else if (error.status === 429) {
+            return "API rate limit exceeded. Please try again later.";
+        } else {
+            return `AI service error: ${error.message || "Unknown error occurred"}`;
+        }
     }
 };
 

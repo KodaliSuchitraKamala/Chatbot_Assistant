@@ -9,6 +9,240 @@
   ],
   "kodalisuchitrakamala@gmail.com": [
     {
+      "id": "1777529536338",
+      "messages": [
+        {
+          "id": "1",
+          "text": "Hello, how can I help you today?",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:12:01.314Z"
+        },
+        {
+          "id": "1777529533056",
+          "text": "Explain quantum computing simply",
+          "sender": "user",
+          "timestamp": "2026-04-30T06:12:13.056Z",
+          "status": "sent"
+        },
+        {
+          "id": "1777529536339",
+          "text": "API key is invalid or has insufficient permissions. Please check your GEMINI_API_KEY.",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:12:16.338Z"
+        },
+        {
+          "id": "1777529603645",
+          "text": "Explain quantum computing simply",
+          "sender": "user",
+          "timestamp": "2026-04-30T06:13:23.645Z",
+          "status": "sent"
+        },
+        {
+          "id": "1777529618675",
+          "text": "To understand quantum computing, you first need to understand how a normal computer works.\n\n### 1. The Normal Computer (The Switch)\nA standard computer (like your phone or laptop) uses \"bits.\" Think of a bit like a **light switch**. It can only be in one of two states: **Off (0)** or **On (1)**. \n\nEverything you do—watching a video, sending a text, playing a game—is just billions of these switches flipping on and off in different patterns.\n\n### 2. The Quantum Computer (The Spinning Coin)\nA quantum computer uses \"qubits.\" Instead of a light switch, think of a qubit like a **spinning coin**.\n\n*   While the coin is spinning on the table, it isn’t \"Heads\" or \"Tails\" yet. It is a blur of **both at the same time.** \n*   In quantum science, this is called **Superposition.**\n\nBecause a qubit can be both 0 and 1 at the same time, it can hold much more information than a regular bit.\n\n### 3. Why is this a big deal? (The Maze Analogy)\nImagine you are trying to find the exit in a giant maze.\n\n*   **A normal computer** is like a mouse. it runs down one path, hits a wall, turns around, and tries another. It tries every path one by one until it finds the exit. It’s effective, but slow.\n*   **A quantum computer** is like a **mist**. The mist smells the entire maze at once. It flows down every path simultaneously and finds the exit almost instantly.\n\n### 4. The \"Magic\" Connection (Entanglement)\nQuantum computers also use something called **Entanglement**. Imagine you have two magic coins. You give one to a friend and they fly to the other side of the world. \n\nIf you spin your coin and it lands on Heads, your friend’s coin **instantly** turns to Heads as well, even though they are thousands of miles away. This allows qubits to work together in a perfectly synchronized team, making the computer incredibly powerful.\n\n### 5. What will we use them for?\nWe don’t need quantum computers to check email or watch Netflix; regular computers are already great at that. We need them for things that are too \"messy\" for regular computers to handle:\n\n*   **Medicine:** Simulating how new drugs react with the human body at a molecular level.\n*   **Batteries:** Designing new materials for super-efficient electric car batteries.\n*   **Encryption:** They could crack almost any password in existence (which is why scientists are already working on \"quantum-proof\" security).\n\n### Summary\n*   **Normal computers** do one thing at a time, very fast.\n*   **Quantum computers** do everything at once, by using the \"spinning coin\" trick of the universe.\n\n**The catch?** Quantum computers are very sensitive. They have to be kept in giant refrigerators that are colder than outer space, or they \"stop spinning\" and the calculation fails!",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:13:38.674Z"
+        }
+      ],
+      "preview": "Explain quantum computing simply",
+      "timestamp": "2026-04-30T06:13:38.675Z"
+    },
+    {
+      "id": "1777529486369",
+      "messages": [
+        {
+          "id": "1",
+          "text": "Hello, how can I help you today?",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:11:09.860Z"
+        },
+        {
+          "id": "1777529483403",
+          "text": "Explain quantum computing simply",
+          "sender": "user",
+          "timestamp": "2026-04-30T06:11:23.403Z",
+          "status": "sent"
+        },
+        {
+          "id": "1777529486370",
+          "text": "API key is invalid or has insufficient permissions. Please check your GEMINI_API_KEY.",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:11:26.369Z"
+        },
+        {
+          "id": "1777529504777",
+          "text": "Explain quantum computing simply",
+          "sender": "user",
+          "timestamp": "2026-04-30T06:11:44.777Z",
+          "status": "sent"
+        },
+        {
+          "id": "1777529507334",
+          "text": "API key is invalid or has insufficient permissions. Please check your GEMINI_API_KEY.",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:11:47.333Z"
+        }
+      ],
+      "preview": "Explain quantum computing simply",
+      "timestamp": "2026-04-30T06:11:47.333Z"
+    },
+    {
+      "id": "1777529416330",
+      "messages": [
+        {
+          "id": "1",
+          "text": "Hello, how can I help you today?",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:10:01.962Z"
+        },
+        {
+          "id": "1777529413175",
+          "text": "Explain quantum computing simply",
+          "sender": "user",
+          "timestamp": "2026-04-30T06:10:13.175Z",
+          "status": "sent"
+        },
+        {
+          "id": "1777529416331",
+          "text": "API key is invalid or has insufficient permissions. Please check your GEMINI_API_KEY.",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:10:16.330Z"
+        },
+        {
+          "id": "1777529464448",
+          "text": "Explain quantum computing simply",
+          "sender": "user",
+          "timestamp": "2026-04-30T06:11:04.448Z",
+          "status": "sent"
+        },
+        {
+          "id": "1777529467127",
+          "text": "API key is invalid or has insufficient permissions. Please check your GEMINI_API_KEY.",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:11:07.126Z"
+        }
+      ],
+      "preview": "Explain quantum computing simply",
+      "timestamp": "2026-04-30T06:11:07.127Z"
+    },
+    {
+      "id": "1777529257831",
+      "messages": [
+        {
+          "id": "1",
+          "text": "Hello, how can I help you today?",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:07:18.005Z"
+        },
+        {
+          "id": "1777529251796",
+          "text": "Explain quantum computing simply",
+          "sender": "user",
+          "timestamp": "2026-04-30T06:07:31.796Z",
+          "status": "sent"
+        },
+        {
+          "id": "1777529257831",
+          "text": "I'm having trouble thinking right now. Please check if the GEMINI_API_KEY is correctly set in the .env file.",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:07:37.830Z"
+        },
+        {
+          "id": "1777529394126",
+          "text": "Explain quantum computing simply",
+          "sender": "user",
+          "timestamp": "2026-04-30T06:09:54.126Z",
+          "status": "sent"
+        },
+        {
+          "id": "1777529396580",
+          "text": "I'm having trouble thinking right now. Please check if the GEMINI_API_KEY is correctly set in the .env file.",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:09:56.579Z"
+        }
+      ],
+      "preview": "Explain quantum computing simply",
+      "timestamp": "2026-04-30T06:09:56.580Z"
+    },
+    {
+      "id": "1777529204389",
+      "messages": [
+        {
+          "id": "1",
+          "text": "Hello, how can I help you today?",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:06:14.281Z"
+        },
+        {
+          "id": "1777529191862",
+          "text": "Explain quantum computing simply",
+          "sender": "user",
+          "timestamp": "2026-04-30T06:06:31.862Z",
+          "status": "sent"
+        },
+        {
+          "id": "1777529204390",
+          "text": "I'm having trouble thinking right now. Please check if the GEMINI_API_KEY is correctly set in the .env file.",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:06:44.389Z"
+        }
+      ],
+      "preview": "Explain quantum computing simply",
+      "timestamp": "2026-04-30T06:06:44.389Z"
+    },
+    {
+      "id": "1777529002108",
+      "messages": [
+        {
+          "id": "1",
+          "text": "Hello, how can I help you today?",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:02:31.129Z"
+        },
+        {
+          "id": "1777528999137",
+          "text": "Explain quantum computing simply",
+          "sender": "user",
+          "timestamp": "2026-04-30T06:03:19.137Z",
+          "status": "sent"
+        },
+        {
+          "id": "1777529002109",
+          "text": "I'm having trouble thinking right now. Please check if the GEMINI_API_KEY is correctly set in the .env file.",
+          "sender": "bot",
+          "timestamp": "2026-04-30T06:03:22.108Z"
+        }
+      ],
+      "preview": "Explain quantum computing simply",
+      "timestamp": "2026-04-30T06:03:22.109Z"
+    },
+    {
+      "id": "1777528369968",
+      "messages": [
+        {
+          "id": "1",
+          "text": "Hello, how can I help you today?",
+          "sender": "bot",
+          "timestamp": "2026-04-30T05:38:35.690Z"
+        },
+        {
+          "id": "1777528367396",
+          "text": "Explain quantum computing simply",
+          "sender": "user",
+          "timestamp": "2026-04-30T05:52:47.396Z",
+          "status": "sent"
+        },
+        {
+          "id": "1777528369969",
+          "text": "I'm having trouble thinking right now. Please check if the GEMINI_API_KEY is correctly set in the .env file.",
+          "sender": "bot",
+          "timestamp": "2026-04-30T05:52:49.968Z"
+        }
+      ],
+      "preview": "Explain quantum computing simply",
+      "timestamp": "2026-04-30T05:52:49.968Z"
+    },
+    {
       "id": "1777263580299",
       "messages": [
         {

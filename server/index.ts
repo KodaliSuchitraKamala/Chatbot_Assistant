@@ -3,8 +3,18 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import { processMessage } from './dialogue/manager';
 import { loadHistory, saveHistory } from './data/historyPersistence';
+import path from 'path';
 
-dotenv.config();
+// Load .env from root directory
+dotenv.config({ path: path.join(__dirname, '../.env') });
+
+// Debug: Check environment variables
+console.log("Environment variables loaded:");
+console.log("- PORT:", process.env.PORT);
+console.log("- GEMINI_API_KEY exists:", !!process.env.GEMINI_API_KEY);
+if (process.env.GEMINI_API_KEY) {
+    console.log("- GEMINI_API_KEY starts with:", process.env.GEMINI_API_KEY.substring(0, 10) + "...");
+}
 
 const app = express();
 const port = process.env.PORT || 5002;
